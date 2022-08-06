@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    height: 61px;
+    margin: 14px 16px;
+}
+#navbar{
+    position: relative;
+    border-radius: 30px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    height: 111%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li{
+    
+    list-style:none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar a::after
+{
+    content: '';
+	width: 0%;
+	height: 2px;
+	background: rgb(255, 255, 255);
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+#navbar a:hover::after
+{
+    width: 100%;
+}
+.login
+{
+    margin-left: 40%;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    padding: 3px 200px;
+}
+#total{
+    background:url(./food12.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.home::before
+{
+    content:""; 
+    position: absolute; 
+}
+.h-primary{
+    font-size: 3.7rem;
+    padding: 30px;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+}
+.home p{
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(35, 19, 19);
+}
+.box{
+    display: flex;
+}
+.box1,.box2,.box3{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 2%;
+    margin: 1%;
+    margin-top: 15%;
+    text-align: center;
+    background-color: darkgray;
+}
+.services img{
+    padding-left: 2%;
+}
+.services h3{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 45px;
+    margin-bottom: -14%;
+    text-align: center;
+}
+.services h4{
+    font-size: 30px;
+}
+.clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-section
+{
+    height: 45%;
+    background-color: antiquewhite;
+    border: 2px solid rgb(0, 0, 0);
+    background:url(./food19.jpg) no-repeat center center/cover;
+}
+.clients-section h1
+{
+    font-size: 3.8rem;
+    text-align: center;
+    padding-top: 2%;
+}
+.client-items img
+{
+    padding: 7%;
+    padding-top: 0%;
+}
+.contact-us
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us::before
+{
+    content: "";
+    position:absolute;
+    background: url(./food17.jpg) no-repeat center center/cover ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.34;
+}
+.contact-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+#box
+{
+    width: 120%;
+    height: 4vh;
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+.one h4,.two h4,.three h4,.four h4
+{
+    font-size: 1.3rem;
+}
+.contact-box form
+{
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    }
+.contact-box textarea
+{
+    font-size: 0.9rem;
+    width: 120%;
+    border: 1px solid grey;
+    border-radius: 9px;
+}
+.contact-us h1
+{
+    font-size: 3.8rem;
+    padding: 40px;
+    text-align: center;
+}
+.end
+{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+#btn2{
+    margin-left: 50%;
+}
